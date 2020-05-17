@@ -1,1 +1,1 @@
-/home/hirano/git/molokai/colors/molokai.vim
+/home/pi/git/molokai/colors/molokai.vim
