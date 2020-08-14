@@ -14,3 +14,7 @@ set number             " line numbers
 set cursorline         " highlight current row
 set scrolloff=5        " 5 lines above/below cursor when scrolling
 set textwidth=80       " set terminal width for wrapping
+
+set tabstop=4
+set shiftwidth=4
+set expandtab          " no tabs, expand to spaces
