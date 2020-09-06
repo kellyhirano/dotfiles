@@ -18,3 +18,6 @@ set textwidth=80       " set terminal width for wrapping
 set tabstop=4
 set shiftwidth=4
 set expandtab          " no tabs, expand to spaces
+
+nnoremap <F9> :!%:p<Enter>
+nnoremap <F10> :! pycodestyle %<Enter>
