@@ -19,5 +19,15 @@ set tabstop=4
 set shiftwidth=4
 set expandtab          " no tabs, expand to spaces
 
-nnoremap <F9> :!%:p<Enter>
-nnoremap <F10> :! pycodestyle %<Enter>
+nnoremap <F9> :!%:p<Enter>              " run this script
+nnoremap <F10> :! pycodestyle %<Enter>  " run this script through pycodestyle
+
+" Faster split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" More natural splits
+set splitbelow
+set splitright
