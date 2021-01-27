@@ -115,4 +115,6 @@ if ! shopt -oq posix; then
 fi
 
 # keychain ssh-key management
-eval `keychain --eval --agents ssh id_rsa`
+if [ -f /usr/bin/keychain ]; then
+  eval `keychain --eval --agents ssh id_rsa`
+fi
